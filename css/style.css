@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/pic.jpg");
+}
+.border_bg {
+    background-color: black;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 26%;
+    left: 38%;
+    padding: 0px 30px;
+    border: 1px solid white;
+}
+.top_left{
+    top: 47%;
+    left: 19%;
+}
+td, th{
+    padding: 10px 15px;
+}
+.form_group {
+    width: 200px;
+    /* display: block; */
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 0.75px solid white;
+    background-color: transparent;
+    color: white;
+}
+.submi {
+    display: block;
+    width: 90%;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 16px;
+    padding: 14px 20px;
+    margin: 30px 15px;
+}
+form{
+    color: white;
+    padding: 25px 10px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+a.link_a {
+    float: right;    
+}
+.link_b {
+    text-align: center;
+    flex: auto;
+    padding: 30px 0px;    
+    color: #2f180a;
+}
+.detail {
+    background-color: white;
+    opacity: 0.4;
+    display: inline-flex;
+    width: 100%;
+    font-size: 30px;
+}
+.detail a{
+    padding: 30px;    
+    color: #2f180a;
+    text-decoration: blink;
+}
+.mrgn{
+    margin-left: 20%;
+}
+.link_data a {
+    color: white;
+    font-size: 20px;
+    text-decoration: blink;
+    line-height: 3;
+}
+.link_data {
+    margin: 70px 30px;
+}
+.link_data a:hover{
+    color: red;
+}
+input.butt {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 16px;
+    padding: 14px 20px;
+    margin: 30px 15px;
+    width: 20%;
+}
+.border_c{
+    color: white;
+    border-color: white;
+    margin: 15px;
+}
